@@ -1,0 +1,59 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+
+        <RadioButton
+            android:id="@+id/bird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bird" />
+
+        <RadioButton
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat" />
+
+        <RadioButton
+            android:id="@+id/dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog" />
+
+        <RadioButton
+            android:id="@+id/rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rabbit" />
+
+        <RadioButton
+            android:id="@+id/pig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pig" />
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/hinhanh"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/chim"
+
+        />
+
+</LinearLayout>

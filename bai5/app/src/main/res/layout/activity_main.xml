@@ -1,0 +1,115 @@
+<LinearLayout android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/anha"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/anhb"
+            android:layout_width="120dp"
+            android:layout_height="189dp"
+            android:src="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/anhc"
+            android:layout_width="120dp"
+            android:layout_height="186dp"
+            android:src="@drawable/b1fv" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:id="@+id/diem1"
+        android:text=""
+        />
+    <Button
+        android:id="@+id/begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="40dp"
+                />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/diem2"
+        android:text=""
+        />
+    <LinearLayout
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/anhd"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/anhe"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/b1fv" />
+
+        <ImageView
+            android:id="@+id/anhf"
+            android:layout_width="120dp"
+            android:layout_height="188dp"
+            android:src="@drawable/b1fv" />
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+
+       >
+       <Button
+           android:id="@+id/all"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="all"
+           android:layout_marginLeft="115dp"
+           />
+       <Button
+           android:id="@+id/xetdiem"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Xét điểm"
+           android:layout_marginLeft="10dp"
+           />
+   </LinearLayout>
+    <EditText
+        android:layout_marginLeft="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten"
+        android:id="@+id/nameplayer"
+        />
+</LinearLayout>
